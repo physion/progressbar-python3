@@ -17,7 +17,7 @@ try:
 except: pass
 
 setup(
-    name='progressbar',
+    name='progressbar3000',
     version=progressbar.__version__,
     packages=find_packages(),
 
@@ -26,10 +26,10 @@ setup(
 
     author=progressbar.__author__,
     maintainer=progressbar.__author__,
-    author_email=progressbar.__author_email__,
-    maintainer_email=progressbar.__author_email__,
+    author_email='support@physion.us',
+    maintainer_email='support@physion.us',
 
-    url='http://code.google.com/p/python-progressbar',
+    url='https://github.com/physion/progressbar-python3',
     license='LICENSE.txt',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
